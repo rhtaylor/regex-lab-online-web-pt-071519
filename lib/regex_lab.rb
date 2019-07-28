@@ -1,6 +1,6 @@
 require 'pry'
 def starts_with_a_vowel?(word)
-  
+
   answer = false
   x = word.scan(/^[aeiou]/)
   if x.length > 0
@@ -25,4 +25,3 @@ end
 def valid_phone_number?(phone)
 
 end
-
