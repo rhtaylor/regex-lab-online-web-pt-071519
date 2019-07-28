@@ -6,6 +6,7 @@ def starts_with_a_vowel?(word)
   if x.length > 0
   answer = true
   end
+binding.pry
 answer
 end
 
