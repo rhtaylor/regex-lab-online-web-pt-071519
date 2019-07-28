@@ -1,5 +1,11 @@
+require 'pry'
 def starts_with_a_vowel?(word)
-
+answer = false
+x = word.scan(/^[aeiou]/)
+if x.length > 0
+  answer = true
+end
+answer
 end
 
 def words_starting_with_un_and_ending_with_ing(text)
