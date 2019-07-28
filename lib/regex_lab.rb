@@ -1,5 +1,6 @@
 require 'pry'
 def starts_with_a_vowel?(word)
+  binding.pry
   answer = false
   x = word.scan(/^[aeiou]/)
   if x.length > 0
